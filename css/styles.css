@@ -13,11 +13,12 @@ body {
     font-optical-sizing: auto;
     font-weight: 1;
     font-size: 32px;
-    padding: 80px;
+    padding: 50px;
 }
 
 .monogram-menu-logo {
     width: 40px;
+    margin-left: 20px;
     margin-right: 20px;
 }
 
@@ -35,7 +36,7 @@ body {
 }
 
 .hero-container {
-    margin: 0 150px; 
+    margin: 0 50px; 
     padding: 10px;
     background-color: var(--color-calm);
 }
@@ -54,10 +55,15 @@ h1 {
     font-size: 100px;
 }
 
+.my-name {
+    @media (max-width: 900px) {
+        font-size: 50px;
+    }
+}
+
 .headshot-container {
-    max-width: 250px;
-    margin: 20px auto;
-    padding: 30px ;
+    margin: 10px auto;
+    padding: 10px ;
     border-radius: 10px;
     background-color: var(--color-primary);
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
@@ -66,6 +72,12 @@ h1 {
 .headshot {
     border-radius: 10px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.headshot-column {
+    @media (max-width: 900px) {
+        display: none;
+    }
 }
 
 h2 {
@@ -80,8 +92,11 @@ h2 {
 p {
     font-family: "Hepta Slab", serif;
     font-optical-sizing: auto;
-    font-weight: 1;
     font-size: 20px;
+}
+
+ul {
+    list-style: none;
 }
 
 footer {
