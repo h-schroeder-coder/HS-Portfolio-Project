@@ -1,9 +1,24 @@
+:root {
+    --color-primary: #1E6778;
+    --color-secondary: #2F9186;
+    --color-tertiary: #6BAF60;
+    --color-accent: #7FBF48;
+    --color-deep-primary: #085C78;
+    --color-calm: #fcfcf7;
+
+}
+
 body {
-    background-color: #e0ecf7;
     font-family: "Hepta Slab", serif;
     font-optical-sizing: auto;
     font-weight: 1;
     font-size: 32px;
+    padding: 80px;
+}
+
+.monogram-menu-logo {
+    width: 40px;
+    margin-right: 20px;
 }
 
 .satisfy-regular {
@@ -19,11 +34,47 @@ body {
   font-style: normal;
 }
 
+.hero-container {
+    margin: 0 150px; 
+    padding: 10px;
+    background-color: var(--color-calm);
+}
+
 h1 {
   font-family: "Satisfy", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 80px;
+  font-size: 90px;
+  color: var(--color-deep-primary);
+  text-align: center;
+  padding: 10px;
+}
+
+.my-name {
+    font-size: 100px;
+}
+
+.headshot-container {
+    max-width: 250px;
+    margin: 20px auto;
+    padding: 30px ;
+    border-radius: 10px;
+    background-color: var(--color-primary);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.headshot {
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-family: "Hepta Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 3;
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
 }
 
 p {
@@ -31,4 +82,15 @@ p {
     font-optical-sizing: auto;
     font-weight: 1;
     font-size: 20px;
+}
+
+footer {
+    background-color: var(--color-primary);
+    padding: 20px;
+    border-radius: 4px;
+    color: whitesmoke;
+}
+
+footer a {
+    color: whitesmoke;
 }
