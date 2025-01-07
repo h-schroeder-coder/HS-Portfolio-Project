@@ -55,12 +55,6 @@ h1 {
     font-size: 100px;
 }
 
-.my-name {
-    @media (max-width: 900px) {
-        font-size: 50px;
-    }
-}
-
 .headshot-container {
     margin: 10px auto;
     padding: 10px ;
@@ -74,9 +68,15 @@ h1 {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-.headshot-column {
-    @media (max-width: 900px) {
-        display: none;
+@media (max-width: 900px) {
+    .headshot-column {
+         display: none;
+    }
+    .about-me-rows {
+        text-align: left;
+    }
+    .my-name {
+        font-size: 50px;
     }
 }
 
@@ -97,6 +97,21 @@ p {
 
 ul {
     list-style: none;
+}
+
+.go-to-buttons-container {
+    border-radius: 4px;
+    border: solid 2px #7FBF48;
+    padding: 15px 30px;
+    text-align: center;
+}
+
+.go-to-buttons {
+    background: linear-gradient(-225deg, #4c84ec 0%, #3584A7 51%, #30D2BE 100%);
+    font-size: 18px;
+    line-height: 24px;
+    background: #7FBF48;
+    color: whitesmoke;
 }
 
 footer {
