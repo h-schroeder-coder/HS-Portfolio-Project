@@ -57,15 +57,25 @@ h1 {
 
 .headshot-container {
     margin: 10px auto;
-    padding: 10px ;
+    padding: 40px;
     border-radius: 10px;
     background-color: var(--color-primary);
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .headshot {
+    display: block;
+    margin: 0 auto;
     border-radius: 10px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    max-height: 500px;
+}
+
+.about-monogram-logo {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    max-height: 100px;
 }
 
 @media (max-width: 900px) {
