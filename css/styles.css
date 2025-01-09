@@ -1,25 +1,24 @@
 :root {
-    --color-primary: #1E6778;
-    --color-secondary: #2F9186;
-    --color-tertiary: #6BAF60;
-    --color-accent: #7FBF48;
-    --color-deep-primary: #085C78;
-    --color-calm: #fcfcf7;
-
+  --color-primary: #1e6778;
+  --color-secondary: #2f9186;
+  --color-tertiary: #6baf60;
+  --color-accent: #7fbf48;
+  --color-deep-primary: #085c78;
+  --color-calm: #fcfcf7;
 }
 
 body {
-    font-family: "Hepta Slab", serif;
-    font-optical-sizing: auto;
-    font-weight: 1;
-    font-size: 32px;
-    padding: 50px;
+  font-family: "Hepta Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 1;
+  font-size: 32px;
+  padding: 50px;
 }
 
 .monogram-menu-logo {
-    width: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
+  width: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .satisfy-regular {
@@ -36,9 +35,9 @@ body {
 }
 
 .hero-container {
-    margin: 30px 50px; 
-    padding: 10px;
-    background-color: var(--color-calm);
+  margin: 30px 50px;
+  padding: 10px;
+  background-color: var(--color-calm);
 }
 
 h1 {
@@ -52,112 +51,112 @@ h1 {
 }
 
 .my-name {
-    font-size: 100px;
+  font-size: 100px;
 }
 
 .headshot-container {
-    margin: 10px auto;
-    padding: 40px;
-    border-radius: 10px;
-    background-color: var(--color-primary);
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  margin: 10px auto;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: var(--color-primary);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .headshot {
-    display: block;
-    margin: 0 auto;
-    border-radius: 10px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-    max-height: 500px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  max-height: 500px;
 }
 
 .about-monogram-logo {
-    display: block;
-    margin: 0 auto;
-    padding-bottom: 20px;
-    max-height: 100px;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  max-height: 100px;
 }
 
 .project-images {
-    max-height: 500px;
+  max-height: 500px;
 }
 
 .project-cards {
-    ;background-color: white !important;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: white !important;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 900px) {
-    .headshot-column {
-         display: none;
-    }
-    .about-me-rows {
-        text-align: left;
-    }
-    .my-name {
-        font-size: 50px;
-    }
+  .headshot-column {
+    display: none;
+  }
+  .about-me-rows {
+    text-align: left;
+  }
+  .my-name {
+    font-size: 50px;
+  }
 }
 
 .social-links {
-    font-size: 70px;
-    color: var(--color-deep-primary);
+  font-size: 70px;
+  color: var(--color-deep-primary);
 }
 
 h2 {
-    font-family: "Hepta Slab", serif;
-    font-optical-sizing: auto;
-    font-weight: 3;
-    font-style: italic;
-    text-align: center;
-    padding: 20px;
+  font-family: "Hepta Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 3;
+  font-style: italic;
+  text-align: center;
+  padding: 20px;
 }
 
 p {
-    font-family: "Hepta Slab", serif;
-    font-optical-sizing: auto;
-    font-size: 20px;
+  font-family: "Hepta Slab", serif;
+  font-optical-sizing: auto;
+  font-size: 20px;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 .project-links {
-    text-decoration: none;
-    font-weight: 800px;
-    color: var(--color-primary);
-    font-family: "Hepta Slab";
+  text-decoration: none;
+  font-weight: 800px;
+  color: var(--color-primary);
+  font-family: "Hepta Slab";
 }
 
 .go-to-buttons-container {
-    border-radius: 4px;
-    border: solid 2px #7FBF48;
-    background: linear-gradient(-225deg, #4c84ec 0%, #3584A7 51%, #30D2BE 100%);
-    padding: 15px 30px;
-    text-align: center;
+  border-radius: 4px;
+  border: solid 2px #7fbf48;
+  background: linear-gradient(-225deg, #4c84ec 0%, #3584a7 51%, #30d2be 100%);
+  padding: 15px 30px;
+  text-align: center;
 }
 
 .go-to-buttons {
-    background: var(--color-calm) !important;
-    font-size: 18px;
-    line-height: 24px;
-    background: #7FBF48;
-    color: var(--color-deep-primary) !important;
+  background: var(--color-calm) !important;
+  font-size: 18px;
+  line-height: 24px;
+  background: #7fbf48;
+  color: var(--color-deep-primary) !important;
 }
 
 .go-to-buttons:hover {
-    background: var(--color-deep-primary) !important;
-    color: var(--color-calm) !important;
+  background: var(--color-deep-primary) !important;
+  color: var(--color-calm) !important;
 }
 
 footer {
-    background-color: var(--color-primary);
-    padding: 20px;
-    border-radius: 4px;
-    color: whitesmoke;
+  background-color: var(--color-primary);
+  padding: 20px;
+  border-radius: 4px;
+  color: whitesmoke;
 }
 
 footer a {
-    color: whitesmoke;
+  color: whitesmoke;
 }
