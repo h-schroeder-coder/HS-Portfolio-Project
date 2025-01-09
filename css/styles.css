@@ -84,7 +84,7 @@ h1 {
 
 .project-cards {
     ;background-color: white !important;
-
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 900px) {
@@ -133,16 +133,22 @@ ul {
 .go-to-buttons-container {
     border-radius: 4px;
     border: solid 2px #7FBF48;
+    background: linear-gradient(-225deg, #4c84ec 0%, #3584A7 51%, #30D2BE 100%);
     padding: 15px 30px;
     text-align: center;
 }
 
 .go-to-buttons {
-    background: linear-gradient(-225deg, #4c84ec 0%, #3584A7 51%, #30D2BE 100%);
+    background: var(--color-calm) !important;
     font-size: 18px;
     line-height: 24px;
     background: #7FBF48;
-    color: whitesmoke;
+    color: var(--color-deep-primary) !important;
+}
+
+.go-to-buttons:hover {
+    background: var(--color-deep-primary) !important;
+    color: var(--color-calm) !important;
 }
 
 footer {
