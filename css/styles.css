@@ -78,6 +78,15 @@ h1 {
     max-height: 100px;
 }
 
+.project-images {
+    max-height: 500px;
+}
+
+.project-cards {
+    ;background-color: white !important;
+
+}
+
 @media (max-width: 900px) {
     .headshot-column {
          display: none;
