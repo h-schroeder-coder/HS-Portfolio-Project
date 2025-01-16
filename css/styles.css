@@ -160,3 +160,22 @@ footer {
 footer a {
   color: whitesmoke;
 }
+
+accomplishments-cards-container {
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.accomplishments-cards {
+  width: 80%;
+  margin: 20px auto !important;
+  padding: 20px !important;
+  background-color: var(--color-calm) !important;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.accomplishment-image {
+  max-height: 500px;
+  max-width: 500px;
+  align-self: center;
+}
