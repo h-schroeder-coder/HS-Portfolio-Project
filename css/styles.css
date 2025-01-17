@@ -96,6 +96,13 @@ h1 {
   .my-name {
     font-size: 50px;
   }
+  .accomplishments-cards {
+    transform: scale(0.75)
+  }
+  .certification-image {
+    width: 100%;
+  }
+
 }
 
 .social-links {
@@ -174,8 +181,25 @@ accomplishments-cards-container {
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
+.accomplishments-cards:hover {
+  transform: scale(1.1);
+}
+
 .accomplishment-image {
   max-height: 500px;
   max-width: 500px;
   align-self: center;
 }
+
+.certification-image {
+  max-height: 500px !important;
+  width: auto;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px auto;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.certification-image:hover {
+  transform: scale(1.1);
+} 
